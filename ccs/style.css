@@ -517,7 +517,7 @@ html {
     box-sizing: inherit;
 }
 
-body{
+body {
     font-family: 'Lato';
     font-style: normal;
     font-size: 16px;
@@ -534,7 +534,7 @@ body{
 
 /* Header styles start */
 
-.header{
+.header {
     position: fixed;
     top: 0;
     left: 0;
@@ -542,7 +542,7 @@ body{
 }
 
 
-.header__wrapper{
+.header__wrapper {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
@@ -550,27 +550,29 @@ body{
     padding-top: 56px;
 }
 
-.header__list{
+.header__list {
     display: flex;
     flex-wrap: wrap;
 }
 
-.header__item{
+.header__item {
     margin-right: 82px;
 }
 
-.header__item:last-child{
+.header__item:last-child {
     margin-right: 0;
 }
 
-.header__link{
+.header__link {
     font-size: 18px;
     line-height: 24px;
-    color:white;
+    color: white;
     text-decoration: none;
 }
 
-.header__link:hover, .header__link:focus, .header__link:active{
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
     opacity: .75;
 
 }
@@ -579,14 +581,14 @@ body{
 
 /* Intro styles start */
 
-.intro{
+.intro {
     height: 100vh;
     background: url(../img/intro-bg.png) no-repeat;
     background-size: cover;
     padding-top: 253px;
 }
 
-.intro__title{
+.intro__title {
     max-width: 619px;
     font-weight: 500;
     font-size: 50px;
@@ -595,7 +597,7 @@ body{
     margin-bottom: 22px;
 }
 
-.intro__subtitle{
+.intro__subtitle {
     max-width: 546px;
     color: white;
     font-size: 16px;
@@ -603,21 +605,34 @@ body{
     margin-bottom: 59px;
 }
 
+.search-form__info {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.search-form__field {
+    width: 297px;
+    background-color: transparent;
+    background: url(../img/circle-icon.svg) no-repeat left top;
+    background-size: 20px;
+    border: 0;
+    border-bottom: 2px solid white;
+    margin-right: 60px;
+    padding-left: 43px;
+    padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+.search-form__field::placeholder {
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
 /* Intro styles end */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
