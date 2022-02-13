@@ -532,8 +532,13 @@ body{
     margin: 0 auto;
 }
 
+/* Header styles start */
+
 .header{
-    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 
@@ -542,6 +547,7 @@ body{
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
+    padding-top: 56px;
 }
 
 .header__list{
@@ -563,6 +569,27 @@ body{
     color:white;
     text-decoration: none;
 }
+
+.header__link:hover, .header__link:focus, .header__link:active{
+    opacity: .75;
+
+}
+
+/* Header styles end */
+
+/* Intro styles start */
+
+.intro{
+    height: 100vh;
+    background: url(../img/intro-bg.png) no-repeat;
+    background-size: cover;
+}
+
+/* Intro styles end */
+
+
+
+
 
 
 
