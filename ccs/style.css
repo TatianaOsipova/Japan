@@ -660,6 +660,7 @@ body {
 }
 
 .benefits__title {
+    width: 100%;
     font-weight: 500;
     font-size: 35px;
     line-height: 42px;
@@ -667,11 +668,16 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    transform: translateY(-100%);
+    background-color: white;
+
 }
 
 .benefits__cards {
-    height: 30vh;
-
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 55px;
+  
 }
 
 
