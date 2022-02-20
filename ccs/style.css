@@ -526,6 +526,10 @@ body {
     color: #000;
 }
 
+img{
+    min-width: 100%;
+    height: auto;
+}
 
 .wrapper {
     max-width: 1060px;
@@ -677,8 +681,42 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 55px;
+    padding: 0 100px;
   
 }
+.benefits__card{
+    grid-column: span 1;
+}
+
+.benefits__card-pic{
+    max-width: 66px;
+    margin-bottom: 66px;
+}
+
+.benefits__card-thumb{
+    display: block;
+}
+
+.benefits__card-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 26px;
+}
+
+.benefits__card-desk{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 39px;
+}
+
+
+
+
+
+
+
+
 
 
 /* Benefits styles end */
