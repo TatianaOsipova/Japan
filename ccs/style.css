@@ -536,6 +536,11 @@ img {
     margin: 0 auto;
 }
 
+.wrapper-full{
+    max-width: 1262px;
+    margin: 0 auto;
+}
+
 /* Header styles start */
 
 .header {
@@ -655,6 +660,10 @@ img {
 
 /* Benefits styles start */
 
+.benefits{
+    margin-bottom: 131px;
+}
+
 .benefits__wrap {
     max-width: 1262px;
     background-color: white;
@@ -685,6 +694,7 @@ img {
 
 .benefits__card {
     grid-column: span 1;
+    margin-bottom: 112px;
 }
 
 .benefits__card-pic {
@@ -724,19 +734,10 @@ img {
     background: url(../img/arrow-right-icon.svg) no-repeat right center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Benefits styles end */
+
+/* Benefits styles start */
+
+
+
+/* Benefits style end */
