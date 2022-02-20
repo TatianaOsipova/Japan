@@ -767,6 +767,10 @@ img {
     margin-bottom: 36px;
 }
 
+.places__title{
+    margin-right: 15px;
+}
+
 .places__view-all{
     font-size: 16px;
     color: #006DFE;
@@ -774,6 +778,12 @@ img {
     padding-right: 59px;
     background: url(../img/arrow-right-icon.svg) no-repeat right center;
 }
+
+.places__view-all:hover, .places__view-all:focus{
+    opacity: .65;
+}
+
+
 
 
 
