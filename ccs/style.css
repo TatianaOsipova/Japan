@@ -792,20 +792,35 @@ img {
     grid-gap: 10px;
 }
 
-.places__card{
+.places__card {
     position: relative;
+    overflow: hidden;
 }
 
-.places__card::after{
+.places__card::after {
     display: block;
     content: '';
     width: 100%;
     height: 100%;
-    background-color: rgba(21, 24, 36, 0.15993);
+    background-color: rgba(21, 24, 36, 0.4);
     position: absolute;
     top: 0;
     left: 0;
     z-index: 2;
+}
+
+.places__card:hover .places__card-pic{
+    transform: scale(1.05);
+}
+
+.places__card-title {
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    position: absolute;
+    bottom: 27px;
+    left: 29px;
+    z-index: 3;
 }
 
 
@@ -813,10 +828,24 @@ img {
     grid-column: span 3;
 }
 
-.places__card-pic{
+.places__card-pic {
+    width: 100%;
     height: 354px;
     object-fit: cover;
+    transition: .15s all;
 }
+
+.places__card-link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+
+
+
 
 
 
