@@ -757,8 +757,26 @@ img {
 
 /* Benefits styles end */
 
-/* Benefits styles start */
+/* Places styles start */
+
+.places__caption{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.places__view-all{
+    font-size: 16px;
+    color: #006DFE;
+    text-decoration: none;
+    padding-right: 59px;
+    background: url(../img/arrow-right-icon.svg) no-repeat right center;
+}
 
 
 
-/* Benefits style end */
+
+
+/* Places style end */
