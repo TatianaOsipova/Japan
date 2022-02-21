@@ -929,6 +929,10 @@ img {
     position: relative;
     margin-bottom: 45px;
 }
+.top__card{
+    display: flex;
+    flex-direction: column;
+}
 
 .top__card-stats {
     display: flex;
@@ -977,11 +981,13 @@ img {
 }
 
 .top__card-more{
+    width: 118px;
     padding: 12px 19px;
     background: #006DFE;
     text-decoration: none;
     color: white; 
     font-size: 16px;
+    margin: auto 0 0 0;
 }
 
 .top__card-more:hover, .top__card-more:focus, .top__card-more:active{
