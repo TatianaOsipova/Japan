@@ -877,7 +877,7 @@ img {
     margin-bottom: 77px;
 }
 
-.tour__info{
+.tour__info {
     padding-left: 47px;
 }
 
@@ -911,35 +911,41 @@ img {
 
 /* <!-- Top start --> */
 
-.top{
+.top {
     margin-bottom: 86px;
 }
 
-.top__title{
+.top__title {
     margin-bottom: 54px;
 }
 
-.top__cards{
+.top__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 57px;
 }
 
-.top__card-pic{
+.top__card-pic {
     position: relative;
 }
 
-.top__card-stats{
+.top__card-stats {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+
+.top__card-stats {
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
     background: rgba(21, 24, 36, 0.6);
-
 }
 
 
 
-        
+
 
 /* <!-- Top styles end --> */
