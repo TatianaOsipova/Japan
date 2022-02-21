@@ -527,7 +527,7 @@ body {
 }
 
 img {
-    min-width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -917,6 +917,25 @@ img {
 
 .top__title{
     margin-bottom: 54px;
+}
+
+.top__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 57px;
+}
+
+.top__card-pic{
+    position: relative;
+}
+
+.top__card-stats{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(21, 24, 36, 0.6);
+
 }
 
 
