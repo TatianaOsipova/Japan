@@ -569,6 +569,9 @@ img {
     top: 0;
     left: 0;
     width: 100%;
+    transition: .2s linear;
+    padding-bottom: 20px;
+    z-index: 999;
 }
 
 .header_active {
@@ -1001,3 +1004,17 @@ img {
 }
 
 /* <!-- Top styles end --> */
+
+/* Videos style start */
+
+.videos{
+    width: 100%;
+}
+
+.videos__wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Videos style end */
+
