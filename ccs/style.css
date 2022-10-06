@@ -470,7 +470,6 @@ textarea {
     padding: 0.2em 0;
 }
 
-
 /* lato-regular - latin */
 @font-face {
     font-family: 'Lato';
@@ -560,8 +559,6 @@ img {
     left: 0;
 }
 
-
-
 /* Header styles start */
 
 .header {
@@ -645,7 +642,6 @@ img {
 .search-form__info {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .search-form__field {
@@ -756,7 +752,6 @@ img {
     text-decoration: none;
     background: url(../img/arrow-right-icon.svg) no-repeat 95% center;
     transition: .2s all;
-
 }
 
 .benefits__card-more:hover,
@@ -833,7 +828,6 @@ img {
     left: 29px;
     z-index: 3;
 }
-
 
 .places__card_size_lg {
     grid-column: span 3;
@@ -1071,8 +1065,6 @@ img {
 .footer__menu-link:hover, .footer__menu-link:focus, .footer__menu-link:active{
     opacity: 0.75;
 }
-
-
 
 /* Footer style end */
 
