@@ -607,7 +607,6 @@ img {
 .header__link:focus,
 .header__link:active {
     opacity: .75;
-
 }
 
 /* Header styles end */
